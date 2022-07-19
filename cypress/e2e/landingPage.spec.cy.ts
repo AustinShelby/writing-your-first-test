@@ -4,3 +4,5 @@ describe("Landing page", () => {
     cy.get("h1").contains("Hello World");
   });
 });
+
+export {};
