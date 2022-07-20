@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 const Home: NextPage = () => {
   return (
     <main>
-      <h1 data-useless="omega" className="title" id="hello-world">
+      <h1 data-cy="h1-title" className="title" id="hello-world">
         Hello World
       </h1>
       <h2 className="sub-title">Fruits</h2>
@@ -13,6 +13,7 @@ const Home: NextPage = () => {
         <li className="red">Mango</li>
         <li className="blue">Watermelon</li>
       </ul>
+      <p>Apple</p>
       <h2>Form</h2>
       <form>
         <label>
