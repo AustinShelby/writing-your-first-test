@@ -1,10 +1,8 @@
 describe("Landing page", () => {
-  it("select Hello World", () => {
+  it("contains Hello World", () => {
     cy.visit("/");
 
     cy.contains("Hello World");
-
-    cy.get("h1");
   });
 });
 
