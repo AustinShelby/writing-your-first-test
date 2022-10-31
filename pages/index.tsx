@@ -3,22 +3,10 @@ import type { NextPage } from "next";
 const Home: NextPage = () => {
   return (
     <main>
-      <h1 data-cy="h1-title" className="title" id="hello-world">
-        Hello World
-      </h1>
-      <h2 className="sub-title">Fruits</h2>
-      <ul>
-        <li>Apple</li>
-        <li>Banana</li>
-        <li className="red">Mango</li>
-        <li className="blue">Watermelon</li>
-      </ul>
-      <p>Apple</p>
-      <h2>Form</h2>
       <form>
         <label>
           <span>Name</span>
-          <input type="text" name="name" value={"Omega"} />
+          <input type="text" name="name" />
         </label>
         <button type="submit">Submit Form</button>
       </form>
